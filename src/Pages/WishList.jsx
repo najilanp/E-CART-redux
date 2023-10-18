@@ -2,7 +2,9 @@ import React from 'react'
 
 function WishList() {
   return (
-    <div>WishList</div>
+    <div  style={{marginTop:"100px"}}>
+      WishList
+      </div>
   )
 }
 
