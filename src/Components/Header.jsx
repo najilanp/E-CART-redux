@@ -4,7 +4,7 @@ import "./Header.css"
 import { useSelector } from 'react-redux'
 
 function Header() {
-    const wishlist=useSelector((state)=>state.wishlistReducer.wishlist)
+    const wishlist=useSelector((state)=>state.wishlistReducer)
     const cartlist=useSelector((state)=>state.cartlistReducer)
   return (
     // <!-- Navigation-->
